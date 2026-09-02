@@ -1,0 +1,26 @@
+{
+  "internet_problem": {
+    "question": "My internet is not working.",
+    "answer": "Please check that your modem is powered on and that the WAN/Internet light is active. Then restart the modem and wait about 3 minutes. If the problem continues, please contact customer support."
+  },
+  "slow_internet": {
+    "question": "My internet is very slow.",
+    "answer": "Please restart your modem, disconnect devices that are not being used, and run an internet speed test. If the problem affects all devices and continues, please contact customer support."
+  },
+  "password_reset": {
+    "question": "I forgot my account password.",
+    "answer": "You can reset your password through your customer account. If you cannot access your account, please contact customer support."
+  },
+  "payment_problem": {
+    "question": "I have a problem with my payment.",
+    "answer": "Please check your payment information and transaction status. If the payment was completed but your account was not updated, please contact customer support."
+  },
+  "pricing": {
+    "question": "How much does your internet service cost?",
+    "answer": "Please check the available internet plans and their current prices in your customer account or contact our sales team."
+  },
+  "human_agent": {
+    "question": "I want to talk to a human.",
+    "answer": "Of course. I can connect you with a customer support agent."
+  }
+}
