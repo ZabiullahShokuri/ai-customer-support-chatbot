@@ -40,3 +40,47 @@ def test_password_reset_intent():
     )
 
     assert intent == "password_reset"
+
+
+def test_wifi_slow_intent():
+    faqs = load_faqs()
+
+    intent = find_intent(
+        "The WiFi is extremely slow",
+        faqs
+    )
+
+    assert intent == "slow_internet"
+
+
+def test_connection_problem_intent():
+    faqs = load_faqs()
+
+    intent = find_intent(
+        "My connection is terrible today",
+        faqs
+    )
+
+    assert intent == "internet_problem"
+
+
+def test_cannot_connect_intent():
+    faqs = load_faqs()
+
+    intent = find_intent(
+        "I can't connect to the internet",
+        faqs
+    )
+
+    assert intent == "internet_problem"
+
+
+def test_real_person_intent():
+    faqs = load_faqs()
+
+    intent = find_intent(
+        "Can I speak with a real person?",
+        faqs
+    )
+
+    assert intent == "human_agent"
